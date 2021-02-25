@@ -1,0 +1,26 @@
+{
+  "name": "react-local-storage-state",
+  "version": "1.0.0",
+  "description": "Hook for persisting React state to local storage",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnindrazaka/react-local-storage-state.git"
+  },
+  "author": "mnindrazaka@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnindrazaka/react-local-storage-state/issues"
+  },
+  "homepage": "https://github.com/mnindrazaka/react-local-storage-state#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "typescript": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.2"
+  }
+}
