@@ -10,7 +10,11 @@ export default function useLocalStorageState<T>(
   });
 
   React.useEffect(() => {
-    if (state !== undefined) localStorage.setItem(key, JSON.stringify(state));
+    if (state === undefined) {
+      localStorage.removeItem(key);
+      return;
+    }
+    localStorage.setItem(key, JSON.stringify(state));
   }, [key, state]);
 
   return [state, setState];
